@@ -1,6 +1,6 @@
 'use strict';
 
-const elements = document.querySelectorAll('input');
+const elements = document.querySelectorAll('form input');
 const list = Array.from(elements);
 
 const inputsWithLabels = list.map((element) => {
