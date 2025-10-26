@@ -1,0 +1,2 @@
+"use strict";var elements=document.querySelectorAll("form input"),list=Array.from(elements),inputsWithLabels=list.map(function(e){var t=document.createElement("label");return t.classList.add("field-label"),t.setAttribute("for",e.id),t.textContent=e.name[0].toUpperCase()+e.name.slice(1),e.parentElement.prepend(t),e});inputsWithLabels.map(function(e){e.placeholder=e.name[0].toUpperCase()+e.name.slice(1)});
+//# sourceMappingURL=js_task_fix_form_DOM.96cb8c08.js.map
